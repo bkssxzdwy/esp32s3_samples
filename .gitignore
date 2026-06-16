@@ -4,3 +4,8 @@ examples/key_project/.vscode/c_cpp_properties.json
 examples/key_project/.vscode/settings.json
 examples/systimer_project/.vscode/settings.json
 examples/systimer_project/.devcontainer/
+examples/dc_usb_camera_project/build/
+examples/pwm_servo_sg90_project/build/
+examples/usb_camera_project/build/
+examples/dc_usb_camera_project/managed_components/
+examples/usb_camera_project/managed_components/
