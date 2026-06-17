@@ -4,3 +4,6 @@ examples/key_project/.vscode/c_cpp_properties.json
 examples/key_project/.vscode/settings.json
 examples/systimer_project/.vscode/settings.json
 examples/systimer_project/.devcontainer/
+examples/iic_project/build/
+examples/pwm_breath_light_project/build/
+examples/pwm_servo_sg90_project/build/

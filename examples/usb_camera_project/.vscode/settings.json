@@ -13,7 +13,7 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\led_project\\build"
+    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\examples\\usb_camera_project\\build"
   ],
   "idf.flashType": "UART"
 }

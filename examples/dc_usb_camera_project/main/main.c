@@ -279,7 +279,7 @@ static void usb_display_task(void *arg)
 static esp_err_t usb_stream_init(void)
 {
     uvc_config_t uvc_config = {
-        .frame_interval = FRAME_INTERVAL_FPS_30,
+        .frame_interval = FRAME_INTERVAL_FPS_15,
         .xfer_buffer_size = DEMO_UVC_XFER_BUFFER_SIZE,
         .xfer_buffer_a = xfer_buffer_a,
         .xfer_buffer_b = xfer_buffer_b,
@@ -287,8 +287,8 @@ static esp_err_t usb_stream_init(void)
         .frame_buffer = frame_buffer,
         .frame_cb = &camera_frame_cb,
         .frame_cb_arg = NULL,
-        .frame_width = FRAME_RESOLUTION_ANY,
-        .frame_height = FRAME_RESOLUTION_ANY,
+        .frame_width = 320,
+        .frame_height = 240,
         .flags = FLAG_UVC_SUSPEND_AFTER_START,
     };
 
