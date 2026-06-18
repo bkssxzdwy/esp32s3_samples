@@ -1,7 +1,11 @@
 set(src_dirs
+            XL9555
+            IIC
             PWM)
 
 set(include_dirs
+            XL9555
+            IIC
             PWM)
 
 set(requires

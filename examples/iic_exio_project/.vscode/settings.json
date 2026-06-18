@@ -1,5 +1,5 @@
 {
-  "idf.currentSetup": "E:/Espressif/frameworks/esp-idf-v5.5.4/",
+  "idf.currentSetup": "D:/Espressif/frameworks/esp-idf-v5.5.4/",
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
@@ -10,7 +10,7 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\examples\\swpwm_project\\build"
+    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\examples\\iic_exio_project\\build"
   ],
   "idf.portWin": "COM4",
   "idf.flashType": "UART"
