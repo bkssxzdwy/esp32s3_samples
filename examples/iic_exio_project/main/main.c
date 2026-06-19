@@ -3,7 +3,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_log.h"
-#include "pwm.h"
 
 const char *TAG_MAIN = "PWM";
 
@@ -19,8 +18,6 @@ void app_main(void)
     }
 
     ESP_ERROR_CHECK(ret);
-
-    pwm_init();
 
     while (1)
     {

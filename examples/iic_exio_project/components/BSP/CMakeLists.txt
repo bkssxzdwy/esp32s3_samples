@@ -1,12 +1,10 @@
 set(src_dirs
             XL9555
-            IIC
-            PWM)
+            IIC)
 
 set(include_dirs
             XL9555
-            IIC
-            PWM)
+            IIC)
 
 set(requires
             driver
