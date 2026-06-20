@@ -6,6 +6,9 @@
 #include "driver/gpio.h"
 #include "myiic.h"
 #include "string.h"
+#include "esp_log.h"
+
+#define XL9555_INT_IO               GPIO_NUM_3                      /* XL9555_INT 中断引脚 */
 
 /* XL9555寄存器 */
 #define XL9555_INPUT_PORT0_REG 0     /* 输入寄存器0地址 */
@@ -39,5 +42,15 @@
 #define IO1_7 0x8000
 
 esp_err_t xl9555_init(void);
+
+void xl9555_ioconfig();
+
+int xl9555_pin_read(uint16_t pin);
+
+uint16_t xl9555_pin_write(uint16_t pin, int val);
+
+esp_err_t xl9555_register_read(uint8_t reg_addr, uint8_t *data, size_t len);                  
+
+esp_err_t xl9555_register_write(uint8_t reg_addr, uint8_t *data, size_t len); 
 
 #endif
