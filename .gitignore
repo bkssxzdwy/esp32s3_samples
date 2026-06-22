@@ -8,5 +8,7 @@ examples/dc_usb_camera_project/build/
 examples/pwm_servo_sg90_project/build/
 examples/usb_camera_project/build/
 examples/dc_usb_camera_project/managed_components/
+examples/iic_exio_project/build/
+examples/usb_camera_project/build/
 examples/usb_camera_project/managed_components/
 examples/iic_exio_project/.vscode/settings.json

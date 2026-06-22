@@ -10,8 +10,8 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\examples\\swpwm_project\\build"
+    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\examples\\pwm_servo_sg90_project\\build"
   ],
-  "idf.portWin": "COM4",
+  "idf.portWin": "COM5",
   "idf.flashType": "UART"
 }

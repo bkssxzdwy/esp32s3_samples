@@ -51,27 +51,28 @@ void app_main(void)
         // }
 
         // 测试3: 平滑运动
-        ESP_LOGI(TAG, "Test 3: Smooth movement");
-        servo_move_smooth(90, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // ESP_LOGI(TAG, "Test 3: Smooth movement");
+        // servo_move_smooth(90, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
 
-        servo_move_smooth(45, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // servo_move_smooth(45, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
 
-        servo_move_smooth(0, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // servo_move_smooth(0, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
 
-        servo_move_smooth(45, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // servo_move_smooth(45, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
 
-        servo_move_smooth(90, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // servo_move_smooth(90, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
 
-        servo_move_smooth(135, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // servo_move_smooth(135, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
 
-        servo_move_smooth(180, 1000);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        // servo_move_smooth(180, 1000);
+        // vTaskDelay(pdMS_TO_TICKS(1000));
+        //测试3: 平滑运动-------------------------------------
 
         // servo_move_smooth(90, 1000); // 2秒转到90度
         // vTaskDelay(pdMS_TO_TICKS(1000));
