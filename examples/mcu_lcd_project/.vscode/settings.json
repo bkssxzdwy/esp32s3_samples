@@ -1,0 +1,17 @@
+{
+  "idf.currentSetup": "E:/Espressif/frameworks/esp-idf-v5.5.4/",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "E:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=e:\\EspressifWorkSpace\\esp32s3_samples\\examples\\mcu_lcd_project\\build"
+  ],
+  "idf.portWin": "COM5",
+  "idf.flashType": "UART"
+}
