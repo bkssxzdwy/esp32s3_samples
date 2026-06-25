@@ -85,7 +85,7 @@ void lcd_init(lcd_cfg_t lcd_config)
     esp_lcd_panel_invert_color(panel_handle, true);                   /*开启颜色反转*/
     esp_lcd_panel_set_gap(panel_handle, 0, 0);                        /*设置XY偏移*/
     esp_lcd_panel_io_tx_param(io_handle, 0x36, (uint8_t[]){0}, 1);    /*控制ST7789的显存读写方向,0x00表示默认的扫描方向（从上到下，从左到右），无镜像或旋转*/
-    esp_lcd_panel_io_tx_param(io_handle, 0x3A, (uint8_t[]){0x65}, 1); /*接口像素格式命令,16位色（65K色）设置是0x55*/
+    esp_lcd_panel_io_tx_param(io_handle, 0x3A, (uint8_t[]){0x55}, 1); /*接口像素格式命令,16位色（65K色）设置是0x55*/
     lcd_display_direction(1);                                         /*设置屏幕方向*/
 
     ESP_ERROR_CHECK(esp_lcd_panel_disp_on_off(panel_handle, true)); /*启动屏幕*/
