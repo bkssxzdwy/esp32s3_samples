@@ -72,3 +72,21 @@ https://github.com/bkssxzdwy/esp32s3_samples/tree/main/examples/pwm_breath_light
 
 ##### [15.一文搞懂I2C（Inter-Integrated Circuit）](https://mp.weixin.qq.com/s/Q3HJZF3uCc78zm7H8u-uMA)
 
+
+
+[**16. 从零开始手搓 AI 桌面机器人：从寄存器配置到命令序列，手把手带你打通ESP32-S3的I2C开发全流程**](https://mp.weixin.qq.com/s/k5fTBVFG_qAXbGygdjKGqw)
+
+https://github.com/bkssxzdwy/esp32s3_samples/tree/main/examples/iic_exio_project
+
+
+
+**[17. 一文看懂现代半导体存储芯片全景图谱](https://mp.weixin.qq.com/s/JD8D59hCBBKcXndnarAJoA)**
+
+
+
+**[18. 搞懂ESP32-S3存储体系：从ROM到Flash，嵌入式存储金字塔全解析](https://mp.weixin.qq.com/s/vsr6gL5bDn0n6zaPO2R6bg)**
+
+
+
+**[19. 搞懂ESP32-S3存储体系之ROM：上电后的第一位“指挥官”，揭秘ESP32-S3启动全过程](https://mp.weixin.qq.com/s/_mwX1ZE-TDSZtHhHr4IxZA)**
+
