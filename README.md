@@ -90,3 +90,11 @@ https://github.com/bkssxzdwy/esp32s3_samples/tree/main/examples/iic_exio_project
 
 **[19. 搞懂ESP32-S3存储体系之ROM：上电后的第一位“指挥官”，揭秘ESP32-S3启动全过程](https://mp.weixin.qq.com/s/_mwX1ZE-TDSZtHhHr4IxZA)**
 
+
+
+##### [20. 搞懂ESP32-S3存储体系之PSRAM：SRAM的“扩容插件”](https://mp.weixin.qq.com/s/rZA01hiTvRmLp92ZawWwhQ?token=442377708&lang=zh_CN)
+
+
+
+##### [21. 搞懂ESP32-S3存储体系之EEPROM，存放“关键隐私”的保险箱](https://mp.weixin.qq.com/s/20kWuA_lBSfDWf1VaE33Gg)
+
