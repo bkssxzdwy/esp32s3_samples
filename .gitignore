@@ -14,3 +14,5 @@ examples/flash_project/build/
 examples/flash_project/managed_components/
 examples/spi_sdcard_project/.vscode/
 examples/spi_sdcard_project/build/
+examples/iic_eeprom_project/.devcontainer/
+examples/iic_eeprom_project/.vscode/
