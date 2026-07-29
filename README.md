@@ -98,6 +98,8 @@ https://github.com/bkssxzdwy/esp32s3_samples/tree/main/examples/iic_exio_project
 
 ##### [21. 搞懂ESP32-S3存储体系之EEPROM，存放“关键隐私”的保险箱](https://mp.weixin.qq.com/s/20kWuA_lBSfDWf1VaE33Gg)
 
+ https://github.com/bkssxzdwy/esp32s3_samples/tree/main/examples/iic_eeprom_project 
+
 
 
 [****22. 搞懂ESP32-S3存储体系之Flash，真正的"大容量硬盘"（上）——从原理到分区**](https://mp.weixin.qq.com/s/X4c7IbS1RN2zhk9OMAx9hw)**
