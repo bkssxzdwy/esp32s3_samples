@@ -16,3 +16,4 @@ examples/spi_sdcard_project/.vscode/
 examples/spi_sdcard_project/build/
 examples/iic_eeprom_project/.devcontainer/
 examples/iic_eeprom_project/.vscode/
+examples/mcu_lcd_picture_project/.vscode/
